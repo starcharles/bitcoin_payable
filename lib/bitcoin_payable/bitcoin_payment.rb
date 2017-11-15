@@ -1,6 +1,7 @@
 #require 'bitcoin-addrgen'
 require 'money-tree'
-require 'state_machine'
+# require 'state_machine'
+require 'state_machines'
 
 module BitcoinPayable
   class BitcoinPayment < ::ActiveRecord::Base
