@@ -2,6 +2,7 @@
 require 'money-tree'
 # require 'state_machine'
 require 'state_machines'
+require 'state_machines-activerecord'
 
 module BitcoinPayable
   class BitcoinPayment < ::ActiveRecord::Base
